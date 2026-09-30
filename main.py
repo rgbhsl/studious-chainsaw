@@ -1,13 +1,15 @@
+#YOURE NOT SUPPOSED TO BE HERE.
 import time 
 import random
 chances = 0
 
+#YOURE NOT SUPPOSED TO BE LOOKING AT MY CODE.
 def start():
     print("Welcome to the Python tutorial!")
     time.sleep(0.5)
     print("Today, you'll learn your first command.")
     time.sleep(0.5)
-    x = input("Are you ready? y/n ")
+    x = input("Begin? y/n ")
     if x == "y":
         print("Great! Let's begin.")
         gamebegin()
@@ -28,8 +30,7 @@ def anotherchance():
     global chances
     chances = chances + 1
     time.sleep(1)
-    print(f"That's {phrword}...)
-    print("I'll give you another chance.")
+    print(f"That's {phrword}. Let's try again.")
     print("...")
     time.sleep(0.5)
 
@@ -42,7 +43,9 @@ def gamebegin():
     if x == "print("Hello, World!")" :
         helloworld()
     else:
-        print()
+        print("I just told you to type exactly as is written.")
+        anotherchance()
+        gamebegin()
     
 
 

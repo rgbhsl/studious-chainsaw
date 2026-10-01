@@ -40,7 +40,7 @@ The game branches based on user input, such as:
 
 ```mermaid
 graph
-ab ---> e
+start ---> e
 ```
 
 ## Acknowledgements

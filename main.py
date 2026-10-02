@@ -16,27 +16,44 @@ def start():
     elif x == "n":
         n = 0
         while n != 10:
-            print("Leave.")
+            print("You're not supposed to choose that.")
             n = n + 1
         anotherchance()
     else:
-        print("Follow instructions.")
+        print("Follow instructions. Pick ONLY y or n")
         anotherchance()
         start()
 
 def anotherchance():
-    synonyms = ["wrong", "incorrect", "not right", "not correct", "a mistake", "false", "an error", "disappointing", "inaccurate", ""]
+    synonyms = ["wrong", "incorrect", "not right", "not correct", "a mistake", "false", "an error", "disappointing", "inaccurate"]
     phrword = random.choice(synonyms)
     global chances
     chances = chances + 1
-    time.sleep(1)
-    print(f"That's {phrword}. Let's try again.")
-    print("...")
-    time.sleep(0.5)
+    if chances < 5:
+        time.sleep(1)
+        print(f"That's {phrword}. Let's try again.")
+        print("...")
+        time.sleep(0.5)
+    elif chances = 5:
+        time.sleep(0.7)
+        print("You just never listen, don't you?")
+        print(f"That was {phrword}. You didn't follow my instructions. Try again.")
+        print("...")
+        time.sleep(0.5)
+    elif (chances > 5) and (chances < 9):
+        time.sleep(0.3)
+        print("Cut it out. You're not listening on purpose.")
+        print(f"It's {phrword}. It's {phrword}. Stop that.")
+    elif chances = 10:
+        print("TEN TIMES.")
+        print("I'VE ASKED OVER AND OVER")
+
+    
+    
 
 def gamebegin():
     print("The first thing most beginners learn to program is a simple output.")
-    print(""Hello, world" is a test porgram that's been used for decades.")
+    print("'Hello, world' is a test porgram that's been used for decades.")
     print("Type the command below. Type exactly as it is written.")
     print("print("Hello, World!")")
     x = input()
@@ -48,6 +65,11 @@ def gamebegin():
         gamebegin()
     
 
+def congrat():
+    synonyms = ["Brilliant", "Excellent", "Perfect"]
+
+def helloworld():
+    print("Brilliant.")
 
 
 

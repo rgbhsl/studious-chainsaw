@@ -11,6 +11,15 @@ _Hello, World!_ is a psychological horror, metafiction text game that is designe
 
 The file **main.py** is written with comments in order to be optionally read as part of the game.
 
+-print
+-comment
+-variavle
+-data types
+-lists and arrays
+-loops
+-if statements
+
+
 ## Usage
 The game branches based on user input, such as:
 - y/n input

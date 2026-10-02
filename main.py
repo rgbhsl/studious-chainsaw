@@ -47,13 +47,13 @@ def anotherchance():
     elif chances = 10:
         print("TEN TIMES.")
         print("I'VE ASKED OVER AND OVER")
+        print("DONT DO THSI TO M<E")
 
-    
-    
+
 
 def gamebegin():
     print("The first thing most beginners learn to program is a simple output.")
-    print("'Hello, world' is a test porgram that's been used for decades.")
+    print("'Hello, world' is a test program that's been used for decades.")
     print("Type the command below. Type exactly as it is written.")
     print("print("Hello, World!")")
     x = input()

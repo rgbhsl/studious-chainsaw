@@ -7,7 +7,7 @@ A text game written in Python that teaches you Python.
 - No installation required: playable in browser via PyTerm
 - 
 
-_Hello, World!_ is a psychological horror, metafiction text game that is designed to teach Python, while also making use of is
+_Hello, World!_ is a psychological horror, metafiction text game written in Python that is designed to teach Python.
 
 The file **main.py** is written with comments in order to be optionally read as part of the game.
 
@@ -46,11 +46,14 @@ The game branches based on user input, such as:
         ...
 ```
 
-
+### Program structure 
 ```mermaid
 graph
 start ---> e
 ```
 
 ## Acknowledgements
-
+- Used the Python documentation for guidance and ideas. 
+- Used Mermaid Documentation for help with diagrams.
+- Used Wikipedia for the history of Python.
+Everything else is fully original and no AI was used to write the code. 

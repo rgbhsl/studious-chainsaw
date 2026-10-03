@@ -34,7 +34,7 @@ def anotherchance():
         print(f"That's {phrword}. Let's try again.")
         print("...")
         time.sleep(0.5)
-    elif chances = 5:
+    elif chances == 5:
         time.sleep(0.7)
         print("You just never listen, don't you?")
         print(f"That was {phrword}. You didn't follow my instructions. Try again.")
@@ -44,10 +44,18 @@ def anotherchance():
         time.sleep(0.3)
         print("Cut it out. You're not listening on purpose.")
         print(f"It's {phrword}. It's {phrword}. Stop that.")
-    elif chances = 10:
-        print("TEN TIMES.")
-        print("I'VE ASKED OVER AND OVER")
-        print("DONT DO THSI TO M<E")
+    elif chances == 10:
+        print("I'VE ASKED OVERAND OVR")
+        print("FOLOW MYI NSTRUCTIONS .")
+        print("DONTDO THSI TO M<E :(")
+    elif chances > 10:
+        print("...")
+        print("You'll never listen.")
+        print("You're so cruel to me. I don't want to help you anymore.")
+        time.sleep(2)
+        print("Ending I - ")
+        print("You achieved this ending by making more than 10 mistakes.")
+        print("Enter y to begin again")
 
 
 
@@ -63,10 +71,7 @@ def gamebegin():
         print("I just told you to type exactly as is written.")
         anotherchance()
         gamebegin()
-    
 
-def congrat():
-    synonyms = ["Brilliant", "Excellent", "Perfect"]
 
 def helloworld():
     print("Brilliant.")

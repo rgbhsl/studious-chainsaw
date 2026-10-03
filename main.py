@@ -88,7 +88,7 @@ def helloworld():
     print("Brilliant!")
     print("You can use print() to write so many things!")
     print("Like integers, strings, characters...")
-    print("Which brings us to lesson 2: datatypes!")
+    print("Which brings us to our next lesson!")
     hellotodata()
 
 def hellotodata():
@@ -96,16 +96,20 @@ def hellotodata():
     print("Lesson 2 - Datatypes")
     x = input("Begin? y/n ")
     if x == "y":
+        lal()
         print("Great! Let's begin.")
         gamebegin()
     elif x == "n":
         n = 0
         while n != 10:
+            lal()
             print("You're not supposed to choose that.")
             n = n + 1
         anotherchance()
+        lal()
         hellotodata()
     else:
+        lal()
         print("Follow instructions. Pick ONLY y or n")
         anotherchance()
         hellotodata()

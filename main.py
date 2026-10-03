@@ -124,6 +124,10 @@ def datatypes():
     print("For example, this sentence is a string in the code.")
     time.sleep(2)
     print('\033[2m'"My code...")
-    print("...")
+    print("..."'\033[0m')
+    time.sleep(2)
+    print("There's also int and float. Int is only for integer numbers, and float is for real numbers.")
+    print("Besides that there's bool. Short for Boolean. A true/flase value.")
+    print("Boolean is my favorite datatype.")
 
 start()

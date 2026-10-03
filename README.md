@@ -18,7 +18,6 @@ Topics covered in the game:
 -comment
 -variables
 -data types
--lists and arrays
 -loops
 -if/elif/else
 

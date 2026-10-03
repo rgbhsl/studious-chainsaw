@@ -62,7 +62,7 @@ helloworld --> hellotodata
 ```
 
 ## Acknowledgements
-- Used [this file](https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007) by rene-d for checking ANSI escape codes to make colored text
+- Used [this file](https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007) by rene-d for ANSI escape codes
 - Used various websites online for debugging
 - Used the Python documentation for guidance and ideas. 
 - Used Mermaid Documentation for help with diagrams.

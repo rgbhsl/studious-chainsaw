@@ -85,6 +85,9 @@ def gamebegin():
 
 def helloworld():
     lal()
+    print("Hello, World!")
+    time.sleep(1)
+    lal()
     print("Brilliant!")
     print("You can use print() to write so many things!")
     print("Like integers, strings, characters...")
@@ -98,7 +101,7 @@ def hellotodata():
     if x == "y":
         lal()
         print("Great! Let's begin.")
-        gamebegin()
+        datatypes()
     elif x == "n":
         n = 0
         while n != 10:
@@ -114,6 +117,13 @@ def hellotodata():
         anotherchance()
         hellotodata()
 
-
+def datatypes():
+    print("Python has several datatypes, but I'll only introduce you to a few basic ones.")
+    print("Let's begin with str, short for string.")
+    print("A string is surrounded by quotation marks. It's basically like text.")
+    print("For example, this sentence is a string in the code.")
+    time.sleep(2)
+    print('\033[2m'"My code...")
+    print("...")
 
 start()

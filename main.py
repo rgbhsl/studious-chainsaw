@@ -3,10 +3,14 @@ import time
 import random
 chances = 0
 
+def lal():
+    #Leave A Line, to save time. has no substantial effect in the game
+    print(" ")
+
 #YOURE NOT SUPPOSED TO BE LOOKING AT MY CODE.
 def start():
     print("Welcome to the Python tutorial!")
-    print("Today, you'll learn your first command.")
+    print("Lesson 1 - Print")
     x = input("Begin? y/n ")
     if x == "y":
         print("Great! Let's begin.")
@@ -81,11 +85,31 @@ def gamebegin():
 
 def helloworld():
     lal()
-    print("Brilliant.")
+    print("Brilliant!")
+    print("You can use print() to write so many things!")
+    print("Like integers, strings, characters...")
+    print("Which brings us to lesson 2: datatypes!")
+    hellotodata()
+
+def hellotodata():
+    #transition function between helloworld() and datatypes()
+    print("Lesson 2 - Datatypes")
+    x = input("Begin? y/n ")
+    if x == "y":
+        print("Great! Let's begin.")
+        gamebegin()
+    elif x == "n":
+        n = 0
+        while n != 10:
+            print("You're not supposed to choose that.")
+            n = n + 1
+        anotherchance()
+        hellotodata()
+    else:
+        print("Follow instructions. Pick ONLY y or n")
+        anotherchance()
+        hellotodata()
 
 
-def lal():
-    #Leave A Line, to save time. has no substantial effect in the game
-    print(" ")
 
 start()

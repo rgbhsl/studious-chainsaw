@@ -6,9 +6,7 @@ chances = 0
 #YOURE NOT SUPPOSED TO BE LOOKING AT MY CODE.
 def start():
     print("Welcome to the Python tutorial!")
-    time.sleep(0.5)
     print("Today, you'll learn your first command.")
-    time.sleep(0.5)
     x = input("Begin? y/n ")
     if x == "y":
         print("Great! Let's begin.")
@@ -19,6 +17,7 @@ def start():
             print("You're not supposed to choose that.")
             n = n + 1
         anotherchance()
+        start()
     else:
         print("Follow instructions. Pick ONLY y or n")
         anotherchance()
@@ -30,18 +29,13 @@ def anotherchance():
     global chances
     chances = chances + 1
     if chances < 5:
-        time.sleep(1)
         print(f"That's {phrword}. Let's try again.")
         print("...")
-        time.sleep(0.5)
     elif chances == 5:
-        time.sleep(0.7)
         print("You just never listen, don't you?")
         print(f"That was {phrword}. You didn't follow my instructions. Try again.")
         print("...")
-        time.sleep(0.5)
     elif (chances > 5) and (chances < 9):
-        time.sleep(0.3)
         print("Cut it out. You're not listening on purpose.")
         print(f"It's {phrword}. It's {phrword}. Stop that.")
     elif chances == 10:
@@ -62,10 +56,12 @@ def ending1():
     print("You achieved this ending by making more than 10 mistakes.")
     x = input("Enter anything to begin again! ")
     lal()
-    for n != 15
+    n = 0
+    while n < 15:
         print('\033[0;31m'"YOU CAN'T BEGIN AGAIN. YOU DON'T DESERVE A SECOND CHANCE.")
         lal()
         n = n + 1
+    quit()
 
 def gamebegin():
     lal()

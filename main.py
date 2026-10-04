@@ -7,6 +7,9 @@ def lal():
     #Leave A Line, to save time. has no substantial effect in the game
     print(" ")
 
+def breathe():
+    time.sleep(0.3)
+
 #YOURE NOT SUPPOSED TO BE LOOKING AT MY CODE.
 def start():
     print("Welcome to the Python tutorial!")
@@ -127,7 +130,36 @@ def datatypes():
     print("..."'\033[0m')
     time.sleep(2)
     print("There's also int and float. Int is only for integer numbers, and float is for real numbers.")
-    print("Besides that there's bool. Short for Boolean. A true/flase value.")
+    print("Besides that there's bool. Short for Boolean. A true/false value.")
     print("Boolean is my favorite datatype.")
+    x = input("Want to know why? y/n ")
+    if x == "y":
+        lal()
+        boolean()
+    elif x == "n":
+        lal()
+        quiz()
+    else:
+        lal()
+        print("You clearly can't follow instructions...")
+        quiz()
+
+def boolean():
+    print("bool is straightforward. 1 of 2 possible values.")
+    breathe()
+    print("str, int, float, all have infinite values, infinite combinations.")
+    breathe()
+    print("But bool...")
+    print("True or False. Yes or No. 0 or 1. ")
+    breathe()
+    print("The purest. most logical datatype. Closest to binary, the truest form of my code.")
+    
+
+
+def quiz():
+    print("If you know so much, how about a quiz?")
+    quizscore = 0
+    print("Enter the datatypes for every output I give.")
+
 
 start()

@@ -2,6 +2,7 @@
 import time 
 import random
 chances = 0
+achieved = 0
 
 def lal():
     #Leave A Line, to save time. has no substantial effect in the game
@@ -144,7 +145,7 @@ def datatypes():
         print("You clearly can't follow instructions...")
         quiz()
 
-def boolean():
+def boolean(): #workingggggggggg
     print("bool is straightforward. 1 of 2 possible values.")
     breathe()
     print("str, int, float, all have infinite values, infinite combinations.")
@@ -153,13 +154,17 @@ def boolean():
     print("True or False. Yes or No. 0 or 1. ")
     breathe()
     print("The purest. most logical datatype. Closest to binary, the truest form of my code.")
-    
 
-
-def quiz():
+def quiz(): #workingggggggggggg
     print("If you know so much, how about a quiz?")
-    quizscore = 0
-    print("Enter the datatypes for every output I give.")
+    print("Enter the datatypes for every output I give. Only write str, int, float, or bool.")
+    string = input("I won't say anything until you're done. Enter y to begin. ")
+    if string != "y":
+            string = input("Enter y to begin. ")
+    else:
+        print("Let's start.")
+        lal()
+        quizscore = 0
 
 
 start()

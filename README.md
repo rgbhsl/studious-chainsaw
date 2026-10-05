@@ -56,6 +56,8 @@ start --> anotherchance & gamebegin & start
 anotherchance --> ending1
 gamebegin --> anotherchance & helloworld
 helloworld --> hellotodata
+hellotodata --> datatypes
+datatypes --> boolean & quiz
 
 
 ```

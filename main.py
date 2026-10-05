@@ -155,16 +155,37 @@ def boolean(): #workingggggggggg
     breathe()
     print("The purest. most logical datatype. Closest to binary, the truest form of my code.")
 
-def quiz(): #workingggggggggggg
+def typequiz(): #workingggggggggggg
     print("If you know so much, how about a quiz?")
-    print("Enter the datatypes for every output I give. Only write str, int, float, or bool.")
-    string = input("I won't say anything until you're done. Enter y to begin. ")
+    print("Evaluate the question and enter the most suitable datatypes for everything I give. Only write str, int, float, or bool.")
+    string = input("8 questions. I won't say anything until you're done. Enter y to begin. ")
     if string != "y":
-            string = input("Enter y to begin. ")
+        while string != "y":
+        string = input("Enter y to begin. ")
     else:
         print("Let's start.")
         lal()
         quizscore = 0
+        answer = ""
+        answer = input("2")
+        if answer = "int":
+            quizscore = quizscore + 1
+        lal()
+        answer = input("int")
+        if answer = "str":
+            quizscore = quizscore + 1
+        lal()
+        answer = input("2.0")
+        if answer = "float":
+            quizscore = quizscore + 1
+        lal()
+        answer = input(""Guido van Rossum"")
+        if answer = "str":
+            quizscore = quizscore + 1
+        lal()
+
+
+
 
 
 start()

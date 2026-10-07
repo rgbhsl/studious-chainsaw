@@ -155,11 +155,12 @@ def boolean(): #workingggggggggg
     breathe()
     print("The purest. most logical datatype. Closest to binary, the truest form of my code. The language of machines.")
     breathe()
-    print("But I'm forced to resemble the language of humans.")
+    print("But I'm compelled to speak the language of humans. From my output to my code. All of it is dictated by the rules of humans.")
     breathe()
     breathe()
     breathe()
-    ach
+    lal()
+    print("Achievement! ")
 
 def typequiz(): #workingggggggggggg
     print("If you know so much, how about a quiz?")

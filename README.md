@@ -28,7 +28,7 @@ The game branches based on user input, such as:
 - y/n input
 
 ```python
-#Example from definition of function "start()"
+#Example from definition of function start()
     x = input("Begin? y/n ")
     if x == "y":
         ...
@@ -39,7 +39,7 @@ The game branches based on user input, such as:
 ```
 - Guided input
 ```python
-#Example from definition of function "gamebegin()"
+#Example from definition of function gamebegin()
     print("Type the command below. Type exactly as it is written.")
     print("print("Hello, World!")")
     x = input()
@@ -65,7 +65,8 @@ datatypes --> boolean & quiz
 ## Acknowledgements
 - Used [this file](https://gist.github.com/rene-d/9e584a7dd2935d0f461904b9f2950007) by rene-d for ANSI escape codes
 - Used various websites online for debugging
-- Used the Python documentation for guidance and ideas. 
-- Used Mermaid Documentation for help with diagrams.
-- Used Wikipedia for the history of Python.
-Everything else is fully original and no AI was used to write the code. 
+- Used the Python documentation for guidance and ideas on the structure of the tutorial
+- Used Mermaid Documentation for help with diagrams
+- Used Wikipedia for the history of Python
+
+**Everything else is fully original. No AI was used to write the code. **

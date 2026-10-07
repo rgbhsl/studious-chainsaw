@@ -60,8 +60,8 @@ def ending1():
     print("You're so cruel to me. I don't want to help you anymore.")
     time.sleep(2)
     lal()
-    print("Ending I")
-    print("You achieved this ending by making more than 10 mistakes.")
+    print("Ending I - Dead End")
+    print("You achieved this ending by making more than 10 mistakes early in the game.")
     x = input("Enter anything to begin again! ")
     lal()
     n = 0
@@ -153,12 +153,18 @@ def boolean(): #workingggggggggg
     print("But bool...")
     print("True or False. Yes or No. 0 or 1. ")
     breathe()
-    print("The purest. most logical datatype. Closest to binary, the truest form of my code.")
+    print("The purest. most logical datatype. Closest to binary, the truest form of my code. The language of machines.")
+    breathe()
+    print("But I'm forced to resemble the language of humans.")
+    breathe()
+    breathe()
+    breathe()
+    ach
 
 def typequiz(): #workingggggggggggg
     print("If you know so much, how about a quiz?")
-    print("Evaluate the question and enter the most suitable datatypes for everything I give. Only write str, int, float, or bool.")
-    string = input("8 questions. I won't say anything until you're done. Enter y to begin. ")
+    print("Evaluate the question, then enter the most suitable datatype. Only write str, int, float, or bool.")
+    string = input("5 questions. I won't say anything until you're done. Enter y to begin. ")
     if string != "y":
         while string != "y":
         string = input("Enter y to begin. ")
@@ -183,6 +189,10 @@ def typequiz(): #workingggggggggggg
         if answer = "str":
             quizscore = quizscore + 1
         lal()
+        answer = input("2 > 0")
+        if answer = "bool":
+            quizscore = quizscore + 1
+
 
 
 

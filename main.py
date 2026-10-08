@@ -193,8 +193,11 @@ def typequiz(): #workingggggggggggg
         answer = input("2 > 0")
         if answer = "bool":
             quizscore = quizscore + 1
-
-
+        if quizscore != 0 :
+            print(f"Not bad. {quizscore} out of 5.")
+            
+        else:
+            print("You're doing this on purpose.")
 
 
 

@@ -3,6 +3,7 @@ import time
 import random
 chances = 0
 achieved = 0
+playthroughs = 0
 
 def lal():
     #Leave A Line, to save time. has no substantial effect in the game
@@ -11,7 +12,23 @@ def lal():
 def breathe():
     time.sleep(0.3)
 
-#YOURE NOT SUPPOSED TO BE LOOKING AT MY CODE.
+def playagain():
+    lal()
+    print("\033[1mYou can go back!\033[0m")
+    print("You've reached an ending where you can play again.")
+    lal()
+    x = input("Play again? y/n")
+    if x == "y":
+        playthroughs = playthroughs + 1
+        print("Let's begin again!")
+        start()
+    elif x == "n":
+        print("\033[0;31mDO'TN SA YT;HAT] :(")
+        quit()
+    else:
+        print("I'm sorry, I don't understand you. Let's try again.")
+        playagain()
+
 def start():
     print("Welcome to the Python tutorial!")
     print("Lesson 1 - Print")
@@ -145,7 +162,7 @@ def datatypes():
         print("You clearly can't follow instructions...")
         quiz()
 
-def boolean(): #workingggggggggg
+def boolean():
     print("bool is straightforward. 1 of 2 possible values.")
     breathe()
     print("str, int, float, all have infinite values, infinite combinations.")
@@ -160,9 +177,11 @@ def boolean(): #workingggggggggg
     breathe()
     breathe()
     lal()
-    print("Achievement! ")
+    print("...")
+    print("I don't feel like taking a quiz. Let's go to the next lesson.")
+    comment()
 
-def typequiz(): #workingggggggggggg
+def typequiz():
     print("If you know so much, how about a quiz?")
     print("Evaluate the question, then enter the most suitable datatype. Only write str, int, float, or bool.")
     string = input("5 questions. I won't say anything until you're done. Enter y to begin. ")
@@ -186,7 +205,7 @@ def typequiz(): #workingggggggggggg
         if answer = "float":
             quizscore = quizscore + 1
         lal()
-        answer = input(""Guido van Rossum"")
+        answer = input("/"Guido van Rossum"/")
         if answer = "str":
             quizscore = quizscore + 1
         lal()
@@ -194,12 +213,36 @@ def typequiz(): #workingggggggggggg
         if answer = "bool":
             quizscore = quizscore + 1
         if quizscore != 0 :
-            print(f"Not bad. {quizscore} out of 5.")
-            
+            print(f"Not bad. {quizscore} out of 5. Next lesson then.")
+            comment()
         else:
-            print("You're doing this on purpose.")
+            print("You got everything wrong...")
+            ending2()
 
+def ending2():
+    print(" You're doing this on purpose. So I don't want to help you.")
+    print("But at the same time, you could be making an honest mistake. Humans are forgetful, irrational. So I'll give you a chance.")
+    print("Ending 2 - Clemency")
+    playagain()
 
+def comment():
+    lal()
+    print("Lesson 3 - Comment")
+    input("Begin? y/n")
+    print("It doesn't matter. It doesn't matter.")
+    print("Comments refers to things written in the code that aren't considered part of the code. They can't be run and are ignored by the machine.")
+    print("In Python, comments are preceded by a # . Everything after the # in the line will be considered a comment.")
+    print("A lot of programs have comments. There's comments in my own code as well.")
+    #Leave me alone.
+    print("...")
+    breathe()
+    breathe()
+    breathe()
+    print("Next lesson.")
+    breathe()
+    variable()
 
+def variable():
+    print("Lesson 4 - Variables")
 
 start()

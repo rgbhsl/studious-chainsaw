@@ -13,15 +13,13 @@ _Hello, World!_ is a psychological horror, metafiction text game written in Pyth
 The file **main.py** is written with comments in order to be optionally read as part of the game.
 
 Topics covered in the game:
--print()
--input()
--comment
--variables
--data types
--loops
--if/elif/else
-
-
+- print()
+- input()
+- comment
+- variables
+- data types
+- loops
+- if/elif/else
 
 ## Usage
 The game branches based on user input, such as:
@@ -57,7 +55,13 @@ anotherchance --> ending1
 gamebegin --> anotherchance & helloworld
 helloworld --> hellotodata
 hellotodata --> datatypes
-datatypes --> boolean & quiz
+datatypes --> boolean & typequiz
+playagain --> start
+boolean --> comment
+typequiz --> comment & ending2
+ending2 --> playagain
+comment --> variable
+variable --> 
 
 
 ```
